@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NuNitum</title>
+    <link rel="stylesheet" href="./public/style.css" />
+    <link rel="stylesheet" href="./public/style2.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,500;0,600;0,700;1,100;1,500&display=swap");
+    </style>
+  </head>
+  <body>
+    <section class="flex flex-col font-Poppins">
+      <section class="section-1">
+        <nav
+          class="flex flex-col h-[18vh] max-w-[100vw] px-2 my-4 justify-between mt-2 md:mt-0 md:flex-row md:h-[11vh]">
+          <!--  border-2 border-red-600 mb-2 -->
+          <div class="flex items-center mb-1 justify-between basis-2">
+            <!--border-2  border-pink-400-->
+            <div
+              class="blackBox relative h-[7vh] w-[40px] bg-black md:h-[50px] md:w-[50px]"></div>
+            <span
+              class="absolute text-xl left-[1.6rem] top-[1.2rem] md:text-2xl md:left-[1.9rem] lg:top-[1.5rem lg:leading-[23px]] fk:top-[5rem]"
+              ><span class="text-white">nu</span>nitum.</span
+            >
+            <ul
+              class="flex pt-4 gap-5 mx-3 md:gap-8 md:mx-5 md:ml-36 lg:text-xl">
+              <li>Home</li>
+              <li>Tags</li>
+              <li>About</li>
+            </ul>
+          </div>
+          <div
+            class="search relative flex items-center mb-1 gap-x-4 justify-end basis-1 mt-2 md:mt-0 box-border md:pt-5">
+            <!--border-2  border-pink-400-->
+            <input
+              type="text"
+              name="search"
+              id="search'"
+              class="searchBox hidden border-black border-[1px] w-[12rem] px-3 rounded-xl" />
+            <i
+              class="searchIcon absolute right-[7rem] fa fa-search cursor-pointer md:right-[6.5rem] hover:rotate-12"></i>
+            <div
+              class="wraper relative flex items-center justify-center gap-[22px] mr-[10px] md:mr-[0px]">
+              <!-- hidden -->
+              <i
+                class="bellIcon fa fa-thin fa-bell cursor-pointer hover:rotate-12"></i>
+              <div
+                class="loginIcon image9 h-10 w-10 rounded-[50%] cursor-pointer hover:border-2 border-gray-500"></div>
+              <div
+                class="menu flex flex-col gap-3 absolute top-11 z-10 right-0 h-[13rem] w-[9rem] px-5 py-3 rounded-[15px] shadow-gray-500 shadow-md border-[1.5px] bg-white">
+                <div class="sec1 relative">
+                  <ul>
+                    <li><span class="font-bold">Arthur Black</span></li>
+                    <!-- ArthurBlack -->
+                    <li>
+                      <span class="font-extralight text-[13px]"
+                        >@arthurblack</span
+                      >
+                      <!-- @arthurblack -->
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="line absolute h-[1px] w-[102%] top-[4rem] left-[-1px] bg-gray-500"></div>
+                <div class="sec2 text-[15px] leading-6">
+                  <ul>
+                    <li><span> Dashboard </span></li>
+                    <li><span> Write a Post </span></li>
+                    <li><span> Settings </span></li>
+                    <li><span> Help </span></li>
+                    <li><span> Sign out </span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <button
+              class="px-5 border-[1px] border-gray-200 rounded-xl mr-[10px] md:mr-[0px] hidden">
+              <!-- hidden -->
+              Login
+            </button>
+          </div>
+        </nav>
+      </section> 
+      <section class="section-2 relative px-2">
+        <div class="image max-w-[100vw] h-[25rem] md:h-[35rem]"></div>
+        <div
+          class="whiteBox absolute h-[80%] w-[275px] bg-white left-[20px] top-[0px] md:left-[57px] md:w-[400px] px-[1rem]">
+          <span
+            class="block text-xs leading-4 pt-[2rem] md:pt-[3rem] md:leading-5 md:text-xl"
+            >FEATURED ARTICLE</span
+          >
+          <span
+            class="block text-xl py-[.7rem] leading-6 md:leading-8 md:text-2xl lg:text-[27px]"
+            >World’s Most Dangerous Technology Ever Made.</span
+          >
+          <span class="block text-xs leading-5 md:leading-6 md:text-[16px]"
+            >Ralph Hawkins . May 7, 2019 (10 mins read)
+          </span>
+          <span
+            class="block text-[14px] leading-4 md:text-xl pt-[.5rem] lg:text-[20px]"
+            >Proident aliquip velit qui commodo officia qui consectetur dolor
+            ullamco aliquip elit incididunt. Ea minim ex consectetur excepteur.
+            Ex laborum nostrud mollit sint consectetur Lorem amet aliqua do
+            enim. Commodo duis dolor anim excepteur. In aliquip mollit nulla
+            consequat velit magna.</span
+          >
+        </div>
+      </section>
+      <section
+        class="section-3 flex flex-col max-w-[100vw] px-2 my-[1rem] md:my-[2rem] items-center">
+        <!--border-2  border-pink-400-->
+        <samp
+          class="flex justify-center text-2xl mb-[.2rem] md:text-4xl md:mb-[.5rem]"
+          >Editor’s Picks</samp
+        >
+        <div class="w-[8rem] md:w-[13rem] h-[5px] bg-black rounded-sm"></div>
+      </section>
+      <section
+        class="section-4 flex flex-col max-w-[100vw] px-3 md:items-center">
+        <!-- ********************************************** -->
+        <div
+          class="article1 flex flex-col max-w-[100rem] my-[.5rem] items-center md:flex-row md:max-w-[100%] md:justify-center">
+          <div
+            class="image1 h-[13rem] w-[15rem] my-[.5rem] md:h-[15rem] md:w-[20rem] md:mr-[1rem]"></div>
+          <div
+            class="whiteBox text-center px-10 md:w-[60%] md:pl-[0px] md:text-start md:px-[0] md:h-[15rem] md:ml-[1rem]">
+            <span
+              class="block text-xs pt-[.5rem] leading-4 md:pt-[0px] md:text-[14px]"
+              >MINIMALISM</span
+            >
+            <span
+              class="md:text-2xl block text-xl leading-6 md:leading-7 py-[.5rem] lg:text-[27px]"
+              >Culpa sit Laboris Exercitation ea Fugiat</span
+            >
+            <span class="block text-[14px] leading-5 md:leading-6"
+              >Leslie Pena . April 25, 2012 (6 mins read)
+            </span>
+            <span
+              class="block text-[18px] leading-[20px] pt-[.3rem] lg:text-[20px] lg:leading-[23px]"
+              >Incididunt occaecat et qui dolore consectetur magna. Lorem veniam
+              ut et labore consequat ut ex sunt. Ut et nostrud aliquip do anim
+              proident ad nulla consectetur eu aute ex anim mollit. Anim aute
+              exercitation nisi fugiat. Dolor velit excepteur commodo proident
+              nulla commodo ullamco labore et esse..</span
+            >
+          </div>
+        </div>
+        <!-- ********************************************** -->
+        <div
+          class="article2 flex flex-col max-w-[100rem] my-[.5rem] items-center md:flex-row md:max-w-[100%] md:justify-center">
+          <div
+            class="image2 h-[13rem] w-[15rem] my-[.5rem] md:h-[15rem] md:w-[20rem] md:mr-[1rem]"></div>
+          <div
+            class="whiteBox text-center px-10 md:w-[60%] md:pl-[0px] md:text-start md:px-[0] md:h-[15rem] md:ml-[1rem]">
+            <span
+              class="block text-xs pt-[.5rem] leading-4 md:pt-[0px] md:text-[14px]"
+              >MINIMALISM</span
+            >
+            <span
+              class="md:text-2xl block text-xl leading-6 md:leading-7 py-[.5rem] lg:text-[27px]"
+              >Culpa sit Laboris Exercitation ea Fugiat</span
+            >
+            <span class="block text-[14px] leading-5 md:leading-6"
+              >Leslie Pena . April 25, 2012 (6 mins read)
+            </span>
+            <span
+              class="block text-[18px] leading-[20px] pt-[.3rem] lg:text-[20px] lg:leading-[23px]"
+              >Incididunt occaecat et qui dolore consectetur magna. Lorem veniam
+              ut et labore consequat ut ex sunt. Ut et nostrud aliquip do anim
+              proident ad nulla consectetur eu aute ex anim mollit. Anim aute
+              exercitation nisi fugiat. Dolor velit excepteur commodo proident
+              nulla commodo ullamco labore et esse..</span
+            >
+          </div>
+        </div>
+        <!-- ********************************************** -->
+        <div
+          class="article3 flex flex-col max-w-[100rem] my-[.5rem] items-center md:flex-row md:max-w-[100%] md:justify-center">
+          <div
+            class="image3 h-[13rem] w-[15rem] my-[.5rem] md:h-[15rem] md:w-[20rem] md:mr-[1rem]"></div>
+          <div
+            class="whiteBox text-center px-10 md:w-[60%] md:pl-[0px] md:text-start md:px-[0] md:h-[15rem] md:ml-[1rem]">
+            <span
+              class="block text-xs pt-[.5rem] leading-4 md:pt-[0px] md:text-[14px]"
+              >MINIMALISM</span
+            >
+            <span
+              class="md:text-2xl block text-xl leading-6 md:leading-7 py-[.5rem] lg:text-[27px]"
+              >Culpa sit Laboris Exercitation ea Fugiat</span
+            >
+            <span class="block text-[14px] leading-5 md:leading-6"
+              >Leslie Pena . April 25, 2012 (6 mins read)
+            </span>
+            <span
+              class="block text-[18px] leading-[20px] pt-[.3rem] lg:text-[20px] lg:leading-[23px]"
+              >Incididunt occaecat et qui dolore consectetur magna. Lorem veniam
+              ut et labore consequat ut ex sunt. Ut et nostrud aliquip do anim
+              proident ad nulla consectetur eu aute ex anim mollit. Anim aute
+              exercitation nisi fugiat. Dolor velit excepteur commodo proident
+              nulla commodo ullamco labore et esse..</span
+            >
+          </div>
+        </div>
+      </section>
+      <!-- ********************************************** -->
+      <section class="section-5 relative p-2">
+        <div
+          class="image4 max-w-[100vw] h-[25rem] md:h-[35rem] flex items-center justify-center">
+          <div
+            class="whiteBox absolute h-[80%] w-[275px] bg-white px-[1rem] md:w-[400px] md:right-[57px]">
+            <!-- left-[20px] top-[0px] -->
+            <span
+              class="block text-xs leading-4 pt-[2rem] md:pt-[3rem] md:leading-5 md:text-xl"
+              >FEATURED ARTICLE</span
+            >
+            <span
+              class="block text-xl py-[.7rem] leading-6 md:leading-8 md:text-2xl lg:text-[27px]"
+              >World’s Most Dangerous Technology Ever Made.</span
+            >
+            <span class="block text-xs leading-5 md:leading-6 md:text-[16px]"
+              >Ralph Hawkins . May 7, 2019 (10 mins read)
+            </span>
+            <span
+              class="block text-[14px] leading-4 md:text-xl pt-[.5rem] lg:text-[20px]"
+              >Proident aliquip velit qui commodo officia qui consectetur dolor
+              ullamco aliquip elit incididunt. Ea minim ex consectetur
+              excepteur. Ex laborum nostrud mollit sint consectetur Lorem amet
+              aliqua do enim. Commodo duis dolor anim excepteur. In aliquip
+              mollit nulla consequat velit magna.</span
+            >
+          </div>
+        </div>
+      </section>
+      <div class="wraper flex flex-col md:flex-row overflow-hidden">
+        <section
+          class="section-6 flex flex-col max-w-[100vw] px-3 md:max-w-[80vw]">
+          <!-- md:items-center -->
+          <!-- ********************************************** -->
+          <div
+            class="article5 flex flex-col max-w-[100rem] my-[.5rem] items-center md:flex-row md:max-w-[95%] md:justify-center">
+            <div
+              class="image5 h-[13rem] w-[15rem] my-[.5rem] md:h-[15rem] md:w-[20rem]"></div>
+            <div
+              class="whiteBox text-center px-10 md:w-[60%] md:pl-[0px] md:text-start md:px-[0] md:h-[15rem] md:ml-[1rem]">
+              <span
+                class="md:text-xs block text-xs pt-[.5rem] leading-4 md:leading-5 md:pt-[0px]"
+                >TECHNOLOGY</span
+              >
+              <span
+                class="md:text-[20px] block text-xl leading-5 py-[.5rem] lg:text-[27px]"
+                >Amet non Ex Officia nulla Cupidatat</span
+              >
+              <span class="md:text-xm block text-xs leading-5"
+                >Jacob Henry . September 27, 2017 (8 mins read)
+              </span>
+              <span
+                class="block text-[14px] leading-5 md:leading-5 pt-[.3rem] lg:text-[20px] lg:leading-[23px]"
+                >Sint anim Lorem aute duis Lorem incididunt. Nulla nostrud irure
+                id ipsum aute excepteur duis sint. Do occaecat sit dolor magna
+                esse. Mollit incididunt cillum consectetur fugiat adipisicing
+                dolor est id minim amet cillum esse Lorem. Deserunt non duis
+                excepteur aliqua duis eu reprehenderit..</span
+              >
+            </div>
+          </div>
+          <!-- ********************************************** -->
+
+          <div
+            class="article5 flex flex-col max-w-[100rem] my-[.5rem] items-center md:flex-row md:max-w-[95%] md:justify-center">
+            <div
+              class="image6 h-[13rem] w-[15rem] my-[.5rem] md:h-[15rem] md:w-[20rem]"></div>
+            <div
+              class="whiteBox text-center px-10 md:w-[60%] md:pl-[0px] md:text-start md:px-[0] md:h-[15rem] md:ml-[1rem]">
+              <span
+                class="md:text-xs block text-xs pt-[.5rem] leading-4 md:leading-5 md:pt-[0px]"
+                >TECHNOLOGY</span
+              >
+              <span
+                class="md:text-2xl block text-xl leading-5 py-[.5rem] lg:text-[27px]"
+                >Amet non Ex Officia nulla Cupidatat</span
+              >
+              <span class="md:text-xm block text-xs leading-5"
+                >Jacob Henry . September 27, 2017 (8 mins read)
+              </span>
+              <span
+                class="block text-[14px] leading-5 md:leading-5 pt-[.3rem] lg:text-[20px] lg:leading-[23px]"
+                >Sint anim Lorem aute duis Lorem incididunt. Nulla nostrud irure
+                id ipsum aute excepteur duis sint. Do occaecat sit dolor magna
+                esse. Mollit incididunt cillum consectetur fugiat adipisicing
+                dolor est id minim amet cillum esse Lorem. Deserunt non duis
+                excepteur aliqua duis eu reprehenderit..</span
+              >
+            </div>
+          </div>
+          <!-- ********************************************** -->
+          <div
+            class="article6 flex flex-col max-w-[100rem] my-[.5rem] items-center md:flex-row md:max-w-[95%] md:justify-center">
+            <div
+              class="image7 h-[13rem] w-[15rem] my-[.5rem] md:h-[15rem] md:w-[20rem]"></div>
+            <div
+              class="whiteBox text-center px-10 md:w-[60%] md:pl-[0px] md:text-start md:px-[0] md:h-[15rem] md:ml-[1rem]">
+              <span
+                class="md:text-xs block text-xs pt-[.5rem] leading-4 md:leading-5 md:pt-[0px]"
+                >ARTICLE</span
+              >
+              <span
+                class="block text-xl leading-5 py-[.5rem] md:text-[20px] lg:text-[27px]"
+                >Dolor ex Tempor Cotur Culpa li</span
+              >
+              <span class="md:text-xm block text-xs leading-5"
+                >Darrell Lane . May 16, 2017 (3 mins read)
+              </span>
+              <span
+                class="block text-[14px] leading-5 md:leading-5 pt-[.3rem] lg:text-[20px] lg:leading-[23px]"
+                >Incididunt sint nulla eu adipisicing eu reprehenderit proident
+                consequat est. Nisi consectetur incididunt mollit officia ut
+                cupidatat laborum proident eu velit Lorem deserunt deserunt
+                voluptate. Proident nostrud laborum reprehenderit culpa irure id
+                labore do ad do minim nisi. Incididunt ex.</span
+              >
+            </div>
+          </div>
+          <!-- ********************************************** -->
+          <div
+            class="article7 flex flex-col max-w-[100rem] my-[.5rem] items-center md:flex-row md:max-w-[95%] md:justify-center">
+            <div
+              class="image8 h-[13rem] w-[15rem] my-[.5rem] md:h-[15rem] md:w-[20rem]"></div>
+            <div
+              class="whiteBox text-center px-10 md:w-[60%] md:pl-[0px] md:text-start md:px-[0] md:h-[15rem] md:ml-[1rem]">
+              <span
+                class="md:text-xs block text-xs pt-[.5rem] leading-4 md:leading-5 md:pt-[0px]"
+                >ARTICLE</span
+              >
+              <span
+                class="block text-xl leading-5 py-[.5rem] md:text-[20px] lg:text-[27px]"
+                >Dolor ex Tempor Cotur Culpa li</span
+              >
+              <span class="md:text-xm block text-xs leading-5"
+                >Darrell Lane . May 16, 2017 (3 mins read)
+              </span>
+              <span
+                class="block text-[14px] leading-5 md:leading-5 pt-[.3rem] lg:text-[20px] lg:leading-[23px]"
+                >Incididunt sint nulla eu adipisicing eu reprehenderit proident
+                consequat est. Nisi consectetur incididunt mollit officia ut
+                cupidatat laborum proident eu velit Lorem deserunt deserunt
+                voluptate. Proident nostrud laborum reprehenderit culpa irure id
+                labore do ad do minim nisi. Incididunt ex.</span
+              >
+            </div>
+          </div>
+        </section>
+        <section class="section-6">
+          <div
+            class="tags flex flex-col items-center justify-between md:pr-[4.5rem]">
+            <samp class="felx text-xl mt-[7px]">Tags</samp>
+            <div class="line bg-black h-[2px] w-10"></div>
+          </div>
+          <div
+            class="tags list-none pt-4 grid grid-cols-2 gap-1 text-[15px] md:grid-cols-1 md:gap-4">
+            <li class="px-9 md:px-0">Technology</li>
+            <li class="px-9 md:px-0">OpenSource</li>
+            <li class="px-9 md:px-0">JavaScript</li>
+            <li class="px-9 md:px-0">Minimalism</li>
+            <li class="px-9 md:px-0">Self-help</li>
+            <li class="px-9 md:px-0">Animals</li>
+            <li class="px-9 md:px-0">Herbivores</li>
+            <li class="px-9 md:px-0">HTML</li>
+            <li class="px-9 md:px-0">CSS</li>
+            <li class="px-9 md:px-0">PHP</li>
+            <li class="px-9 md:px-0">WebTechnologies</li>
+            <li class="px-9 md:px-0">Career</li>
+            <li class="px-9 md:px-0">Life</li>
+            <li class="px-9 md:px-0">Spirituality</li>
+            <li class="px-9 md:px-0">Food</li>
+            <li class="px-9 md:px-0">Cooking</li>
+            <li class="px-9 md:px-0">Sports</li>
+            <li class="px-9 md:px-0">Racing</li>
+            <li class="px-9 md:px-0">Mountain Hiking</li>
+            <li class="px-9 md:px-0">Cruising</li>
+          </div>
+          <!-- ********************************************** -->
+        </section>
+      </div>
+      <!-- ********************************************** -->
+    </section>
+    <section class="next flex flex-row justify-center gap-10 mt-[5rem]">
+      <a class="felx" href="\index.html">Home</a>
+      <a class="felx" href="\login.html">Login Page</a>
+      <a class="felx" href="\lock.html">Lock</a>
+      <a class="felx" href="\profile.html">Profile</a>
+      <a class="felx" href="\article.html">Article</a>
+    </section>
+    <script src="./script/new.js"></script>
+    <script
+      src="https://kit.fontawesome.com/1aa9a42bc4.js"
+      crossorigin="anonymous"></script>
+  </body>
+</html>

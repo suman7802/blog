@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NuNitum Login</title>
+    <link rel="stylesheet" href="./public/style.css" />
+    <link rel="stylesheet" href="./public/style2.css" />
+  </head>
+  <body>
+    <section class="section-1 navbar">
+      <nav
+        class="flex flex-col h-[18vh] max-w-[100vw] px-2 my-4 justify-between mt-2 md:mt-0 md:flex-row md:h-[11vh]">
+        <div class="flex items-center mb-1 justify-between basis-2">
+          <div
+            class="blackBox relative h-[7vh] w-[40px] bg-black md:h-[50px] md:w-[50px]"></div>
+          <span
+            class="absolute text-xl left-[1.6rem] top-[1.2rem] md:text-2xl md:left-[1.9rem] lg:top-[1.5rem lg:leading-[23px]] fk:top-[5rem]"
+            ><span class="text-white">nu</span>nitum.</span
+          >
+          <ul class="flex pt-4 gap-5 mx-3 md:gap-8 md:mx-5 md:ml-36 lg:text-xl">
+            <li>Home</li>
+            <li>Tags</li>
+            <li>About</li>
+          </ul>
+        </div>
+        <div
+          class="search relative flex items-center mb-1 gap-x-4 justify-end basis-1 mt-2 md:mt-0 box-border md:pt-5">
+          <input
+            type="text"
+            name="#"
+            id="#"
+            class="searchBox hidden border-black border-[1px] w-[12rem] px-3 rounded-xl" />
+          <i
+            class="searchIcon absolute right-[7rem] fa fa-search cursor-pointer md:right-[6.5rem] hover:rotate-12"></i>
+
+          <button
+            class="px-5 border-[1px] border-black rounded-xl mr-[10px] md:mr-[0px]">
+            Login
+          </button>
+        </div>
+      </nav>
+    </section>
+
+    <div
+      class="wraper flex felx-col w-full justify-center pt-[3.5rem] md:pt-[5rem]">
+      <section
+        class="section2 login box-border flex flex-col items-center justify-center gap-2 w-max p-4 border-[1px] border-gray-200 rounded-xl shadow-md shadow-gray-400">
+        <!-- bg-red-300 -->
+        <div><span class="text-3xl font-bold">Welcome back!</span></div>
+        <div>
+          <span class="text-[14px]"
+            >Sign in to get the most out of nuntium.</span
+          >
+        </div>
+        <div>
+          <input
+            class="w-[17.5rem] h-[2.5rem] bg-[#F8F8F8] p-3 rounded-[4px] placeholder-gray-500 outline-none"
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Username" />
+        </div>
+        <div>
+          <input
+            class="w-[17.5rem] h-[2.5rem] bg-[#F8F8F8] p-3 rounded-[4px] placeholder-gray-500 outline-none"
+            type="password"
+            name="Password"
+            id="Password"
+            placeholder="Password" />
+        </div>
+        <div class="flex felx-row space-x-20">
+          <div class="remember flex flex-row gap-1 items-center">
+            <input
+              type="checkbox"
+              name="RememberMe"
+              id="RememberMe"
+              class="flex accent-gray-500" />
+            <span class="text-xs text-gray-500">Remember me</span>
+          </div>
+          <div class="ForgotPassword">
+            <a href="#" class="text-xs text-gray-500">Forgot Password?</a>
+          </div>
+        </div>
+        <div>
+          <button
+            class="border-[1px] border-black w-[17.5rem] py-[.6rem] rounded-[10px]">
+            Login
+          </button>
+        </div>
+      </section>
+    </div>
+    <section class="next flex flex-row justify-center gap-10 mt-[5rem]">
+      <a class="felx" href="\index.html">Home</a>
+      <a class="felx" href="\login.html">Login Page</a>
+      <a class="felx" href="\lock.html">Lock</a>
+      <a class="felx" href="\profile.html">Profile</a>
+      <a class="felx" href="\article.html">Article</a>
+    </section>
+    <script src="./script/new.js"></script>
+    <script
+      src="https://kit.fontawesome.com/1aa9a42bc4.js"
+      crossorigin="anonymous"></script>
+  </body>
+</html>

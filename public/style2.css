@@ -1,0 +1,97 @@
+.image {
+  background-image: url(/image/Article\ Image.png);
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image1 {
+  background-image: url(/image/Rectangle\ 2.png);
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image2 {
+  background-image: url(/image/Rectangle\ 3.png);
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image3 {
+  background-image: url(/image/Rectangle\ 4.png);
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image4 {
+  background-image: url(/image/Article\ Image2.png);
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image5 {
+  background-image: url(/image/SRectangle\ 2.png);
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image6 {
+  background-image: url(/image/SRectangle\ 3.png);
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image7 {
+  background-image: url(/image/SRectangle\ 4.png);
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image8 {
+  background-image: url(/image/SRectangle\ 5.png);
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image9 {
+  background-image: url(/image/login.png);
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.image10 {
+  background-image: url(/image/lock.png);
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.image11 {
+  background-image: url(/image/Article\ Image3.png);
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.image12 {
+  background-image: url(/image/ProfilePicture.png);
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
